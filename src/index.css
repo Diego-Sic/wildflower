@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Danfo&family=Rowdies:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Birthstone&family=Danfo&family=Rowdies:wght@300;400;700&display=swap');
+@import "tailwindcss";  
+
+
+@theme {
+    --font-display: "Rowdies", "sans-serif";
+    --font-final: "Danfo", "sans-serif";
+    --color-goldwild: RGB(179, 178, 170);
+    --color-greenwild: RGB(1, 92, 86);
+    --color-whitewild: RGB(255, 255, 255);
+    --color-brownwild: RGB(64, 40, 17);
+    --color-mix: rgba(4, 62, 75, 255);
+}
+
+
+:root {
+    background: var(--color-bluewild);
+}
+
+@keyframes floatAnimation {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0px); }
+  }
+  
+  .floating {
+    animation: floatAnimation 1.5s ease-in-out infinite;
+  }
+  
