@@ -1,5 +1,5 @@
 import React from "react";
-import Landingpage from "./components/Landingpage";
+import LandingPage from "./components/LandingPage";
 import ScrollComponent from "./components/ScrollComponent";
 import { phrases } from "./components/static";
 import Outro from "./components/Outro";
@@ -7,7 +7,7 @@ import Outro from "./components/Outro";
 const App = () => {
   return (
     <div className="bg-gray-900">
-      <Landingpage />
+      <LandingPage />
       {phrases.map((phrase, index) => (
         <ScrollComponent
           key={index}
